@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Calcu-Convert</title>
+	</head>
+	<body>
+		<p th:text="'Angka Pertama: ' + ${angka1}"></p>
+		<p th:text="'Angka Kedua: ' + ${angka2}"></p>
+		<p th:text="${angka1} + ' + ' + ${angka2} + ' = ' + ${hasil} + ' (' + ${convert} + ')'"></p>
+	</body>
+</html>
